@@ -8,8 +8,8 @@ class Band extends Component {
   render() {
     return(
       <div>
-        <li>{this.props.bandName} giu</li>
-        <button onClick={this.handleClick}> Delete</button>
+        <li>{this.props.name}</li>
+        <button onClick={this.handleClick}>Delete</button>
       </div>
     );
   }
